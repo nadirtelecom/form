@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    
+<div class="content">
+    <h2>Formulaire en ligne</h2>
+    <h4>Veuillez compléter ce formulaire et Envoyer pour valider votre inscription:</h4>
+<form action="Inscription"> 
+<label for="Nom"> Nom:</label>
+<input type="text">
+<label for="Prénom">Prénom:</label>
+<input type="text" >
+<label for="sexe">Sexe:</label>
+<label for="M"><input type="radio" name="sexe">M</label>
+<label for="F"><input type="radio" name="sexe">F</label> <br> <br>
+<label for="date">Date naissance:</label>
+<input type="date">
+<label for=""> Lieu de naissance: </label>
+<input type="text"> 
+<label for="CIN">CIN:</label>
+<input type="text">
+<label for="Ville">Ville:</label>
+<input type="text"> 
+<label for="CP">CP:</label>
+<input type="number" name="CP"> 
+<label for="adresse">Adresse:</label>
+<input type="text" name="adresse">
+<label for="niveau"> Niveau d'étude:</label>
+<select id="Niveau" name="niveau">
+    <option value="BAC">BAC</option>
+    <option value="BAC+2">BAC+2</option>
+    <option value="BAC+3">BAC+3</option>
+    <option value="BAC+4">BAC+4</option>
+</select><br><br>
+<button>Envoyer</button> 
+</div>
+</form>
+</body>
+</html>
